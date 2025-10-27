@@ -1,0 +1,66 @@
+*mini_index/
+*.github/
+
+/query/*
+/sample_docs/*
+
+*/bkdetect.egg-info/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# Unit test / coverage reports
+.coverage
+coverage.*
+htmlcov/
+.tox/
+noxfile_.*
+.cache/
+.pytest_cache/
+nosetests.xml
+test-results/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Poetry
+poetry.lock
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# System
+.DS_Store
+Thumbs.db
+
+# pre-commit
+.pre-commit-config.yaml~
+.pre-commit/
+
+# GitHub workflows
+.github/workflows/*.log
