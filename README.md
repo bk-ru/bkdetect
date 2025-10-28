@@ -118,6 +118,3 @@ for pos in positions:
 | `sample_docs/` | Пример коллекции документов. |
 | `query/` | Пример файла с запросом. |
 | `mini_index/` | Экспериментальные данные индекса (FAISS/PKL). |
-| `requirements.txt` | Основные зависимости. |
-| `setup.py` | Скрипт пакетирования. |
-| `.github/workflows/` | CI-конфиги GitHub Actions. |
